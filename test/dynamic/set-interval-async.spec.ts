@@ -2,7 +2,7 @@ import { install, InstalledClock } from "@sinonjs/fake-timers";
 import {
   setIntervalAsync,
   SetIntervalAsyncHandler,
-} from "set-interval-async/dynamic";
+} from "@cloudize/async-interval/dynamic";
 import { strict as assert } from "assert";
 import sinon from "sinon";
 

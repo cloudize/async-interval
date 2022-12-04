@@ -66,3 +66,9 @@ dist
 .DS_Store
 
 .vscode
+
+# NPM Tokens
+.npmrc
+
+# Webstorm config, build and code coverage files
+.idea

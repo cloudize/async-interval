@@ -5,11 +5,11 @@ import {
   setIntervalAsync as setIntervalAsyncDynamic,
   clearIntervalAsync as clearIntervalAsyncDynamic,
   SetIntervalAsyncTimer,
-} from "set-interval-async/dynamic";
+} from "@cloudize/async-interval/dynamic";
 import {
   setIntervalAsync as setIntervalAsyncFixed,
   clearIntervalAsync as clearIntervalAsyncFixed,
-} from "set-interval-async/fixed";
+} from "@cloudize/async-interval/fixed";
 
 for (const [strategy, setIntervalAsync, clearIntervalAsync] of [
   ["Dynamic", setIntervalAsyncDynamic, clearIntervalAsyncDynamic],

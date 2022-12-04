@@ -1,7 +1,7 @@
 import {
   setIntervalAsync,
   SetIntervalAsyncHandler,
-} from "set-interval-async/fixed";
+} from "@cloudize/async-interval/fixed";
 import { install, InstalledClock } from "@sinonjs/fake-timers";
 import { strict as assert } from "assert";
 import sinon from "sinon";
