@@ -1,13 +1,13 @@
 import { strict as assert } from "assert";
-import { setIntervalAsync, clearIntervalAsync } from "@cloudize/async-interval";
+import { setIntervalAsync, clearIntervalAsync } from "@apigames/async-interval";
 import {
   setIntervalAsync as setIntervalAsyncDynamic,
   clearIntervalAsync as clearIntervalAsyncDynamic,
-} from "@cloudize/async-interval/dynamic";
+} from "@apigames/async-interval/dynamic";
 import {
   setIntervalAsync as setIntervalAsyncFixed,
   clearIntervalAsync as clearIntervalAsyncFixed,
-} from "@cloudize/async-interval/fixed";
+} from "@apigames/async-interval/fixed";
 
 describe("Exports", () => {
   it("should export setIntervalAsync and clearIntervalAsync from set-interval-async/dynamic ", () => {
