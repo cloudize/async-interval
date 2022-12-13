@@ -1,5 +1,5 @@
 {
-  "name": "@apigames/async-interval",
+  "name": "@cloudize/async-interval",
   "version": "23.1.0",
   "description": "Modern version of setInterval for promises and async functions available in Node.js and browsers.",
   "repository": {
