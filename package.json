@@ -1,6 +1,6 @@
 {
   "name": "@apigames/async-interval",
-  "version": "24.1.7",
+  "version": "24.1.8",
   "description": "Modern version of setInterval for promises and async functions available in Node.js and browsers.",
   "repository": {
     "type": "git",
@@ -76,7 +76,7 @@
     "@istanbuljs/nyc-config-typescript": "^1.0.2",
     "@sinonjs/fake-timers": "^11.3.1",
     "@types/mocha": "^10.0.10",
-    "@types/node": "^20.17.9",
+    "@types/node": "^20.17.14",
     "@types/sinon": "^17.0.3",
     "@types/sinonjs__fake-timers": "^8.1.5",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
@@ -90,7 +90,7 @@
     "sinon": "^17.0.2",
     "source-map-support": "^0.5.21",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.2",
+    "typescript": "^5.7.3",
     "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4"
   }
