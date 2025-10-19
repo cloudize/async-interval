@@ -1,6 +1,6 @@
 {
   "name": "@cloudize/async-interval",
-  "version": "25.1.0",
+  "version": "25.1.1",
   "description": "Modern version of setInterval for promises and async functions available in Node.js and browsers.",
   "repository": {
     "type": "git",
@@ -76,22 +76,22 @@
     "@istanbuljs/nyc-config-typescript": "^1.0.2",
     "@sinonjs/fake-timers": "^15.0.0",
     "@types/mocha": "^10.0.10",
-    "@types/node": "^24.5.2",
+    "@types/node": "^24.8.1",
     "@types/sinon": "^17.0.4",
     "@types/sinonjs__fake-timers": "^8.1.5",
-    "@typescript-eslint/eslint-plugin": "^8.44.1",
-    "@typescript-eslint/parser": "^8.44.1",
+    "@typescript-eslint/eslint-plugin": "^8.46.1",
+    "@typescript-eslint/parser": "^8.46.1",
     "babel-loader": "^10.0.0",
-    "eslint": "^9.36.0",
-    "mocha": "^11.7.2",
+    "eslint": "^9.38.0",
+    "mocha": "^11.7.4",
     "nyc": "^17.1.0",
     "prettier": "^3.6.2",
     "rimraf": "^6.0.1",
     "sinon": "^21.0.0",
     "source-map-support": "^0.5.21",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.2",
-    "webpack": "^5.101.3",
+    "typescript": "^5.9.3",
+    "webpack": "^5.102.1",
     "webpack-cli": "^6.0.1"
   }
 }
