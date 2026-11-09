@@ -1,4 +1,6 @@
 name: Node.js CI
+permissions:
+  contents: read
 
 on:
   push:
@@ -11,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [14.x, 16.x, 18.x]
+        node-version: [22.x, 24.x, 26.x]
     steps:
     - uses: actions/checkout@v3
 
